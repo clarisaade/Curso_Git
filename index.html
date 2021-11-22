@@ -88,6 +88,28 @@
             </p>
         </article>
     </section>
+    <section>
+        <h2>Sincronización de GIT
+            <h4 style="margin: 0; color: grey;"> git remote|git fetch|git push|git pull</h4>
+        </h2>
+        <h3>Git Remote</h3>
+        <p>El comando <em> git remote</em> te permite crear, ver y eliminar conexiones con otros repositorios. Las conexiones remotas se asemejan más a marcadores que a enlaces directos con otros repositorios. En lugar de brindar acceso en tiempo real a
+            otro repositorio, funcionan como nombres prácticos que pueden emplearse para hacer referencia a una URL no tan sencilla. <br><br> Por ejemplo, en el siguiente diagrama pueden verse dos conexiones remotas desde tu repositorio hasta el repositorio
+            central y el repositorio de otro desarrollador. En lugar de hacer referencia a ellas mediante sus URL completas, puedes pasar los atajos del origen y John a otros comandos de Git.
+        </p>
+        <img src="" alt="">
+
+        <h3>Uso de Git Remote</h3>
+        <h4>git remote</h4>
+        <p>Enumera las conexiones remotas que tienes con otros repositorios.</p>
+        <h3>git remote -v</h3>
+        <p>Lo mismo que el comando anterior, pero incluye la URL de cada conexión.</p>
+        <h3>git remote add &lt;name&gt; &lt;url&gt;</h3>
+        <p>Create a new connection to a remote repository. After adding a remote, you’ll be able to use ＜name＞ as a convenient shortcut for ＜url＞ in other Git commands.</p>
+        <h3>git remote rm &lt;name&gt;</h3>
+        <p>Remove the connection to the remote repository called ＜name＞.</p>
+
+    </section>
     <script src="main.js"></script>
 </body>
 
